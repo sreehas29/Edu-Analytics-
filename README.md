@@ -1,75 +1,118 @@
-# Student Performance Prediction
+# Edu Analytics 📊
 
-<img align="right" src="https://raw.githubusercontent.com/DrakeEntity/project-Image/master/9b2ca712-347a-4987-bac7-a4c3d106ed24_200x200.png" alt="pycontributors logo">
+An educational analytics platform that helps institutions analyze student performance, identify learning trends, and provide data-driven insights through interactive dashboards.
 
-- [Student Performance Prediction](#student-performance-prediction)
-  - [Problem Statement](#problem-statement)
-  - [Introduction](#introduction)
-  - [How To Run](#how-to-run)
-  - [Contributors](#contributors)
-  - [Contributing](#contributing)
-  - [License](#license)
-  - [Project status](#project-status)
-  - [Author](#author)
+---
 
-> Student's Performance Prediction Web Application Using Machine Learning Approach
+## 🚀 Features
 
-## Problem Statement
+- 📈 Student Performance Dashboard
+- 📚 Subject-wise Performance Analysis
+- 🎯 Attendance Tracking
+- 📊 Data Visualization with Charts
+- 🔍 Student Search & Filtering
+- 📝 Performance Reports
+- 👨‍🏫 Admin Dashboard
+- 🔐 Secure User Authentication
+- 📥 Data Import & Export
 
-Problem Statement - Predicting the Students performance using Machine learning based on their previous data and results for early prevention.
+---
 
-## Introduction
+## 🛠 Tech Stack
 
-## How To Run
+### Frontend
+- HTML5
+- CSS3
+- JavaScript
+- Bootstrap
 
-- Install python3
-  - pip install pipenv
+### Backend
+- PHP
 
-Go to Base-Directory run following commands to start server
+### Database
+- MySQL
 
-```bash
-pipenv install
-pipenv shell
-python manage.py runserver
+### Tools
+- XAMPP
+- Git
+- GitHub
+
+---
+
+## 📁 Project Structure
+
+```
+Edu-Analytics/
+│
+├── admin/
+├── assets/
+├── css/
+├── js/
+├── images/
+├── database/
+├── includes/
+├── index.php
+├── login.php
+└── README.md
 ```
 
+---
+
+## ⚙️ Installation
+
+### Clone the repository
+
 ```bash
-# migrate database for user/admin login
-python manage.py migrate 
-# to create admin user
-python manage.py createsuperuser
+git clone https://github.com/YOUR_USERNAME/Edu-Analytics.git
 ```
 
-visit <https://localhost:8000> on your pc
+### Open the project
 
-## Contributors
+Place the project folder inside:
+
+```
+xampp/htdocs/
+```
+
+### Import Database
+
+1. Open phpMyAdmin
+2. Create a database
+3. Import the SQL file
+
+### Start Server
+
+- Apache
+- MySQL
+
+Visit:
+
+```
+http://localhost/Edu-Analytics
+```
+
+---
+
+## 📊 Modules
+
+- Admin Module
+- Student Module
+- Analytics Module
+- Report Generation
+- Authentication
+
+---
+
+## 🎯 Future Improvements
+
+- AI-based Performance Prediction
+- Machine Learning Insights
+- Parent Dashboard
+- Email Notifications
+- Mobile Responsive UI
+- Cloud Deployment
+- Role-based Access Control
+
+---
 
 
-- [Deepak Raj](https://github.com/shubham5351) - Django, ML, Frontend
-- [Shubham Pawar](https://github.com/shubham5351) - Maintainer, ML Modeling and Analyis
-- [Deepak Kumar](https://github.com/dkpcs92) - ML Modeling and analysis
-- []() - Frontend Part
-
-## Contributing
-
-Before submitting a bug, please do the following:
-
-Perform basic troubleshooting steps:
-
-- Make sure you are on the latest version. If you are not on the most recent version, your problem may have been solved already! Upgrading is always the best first step.
-- Try older versions. If you are already on the latest release, try rolling back a few minor versions (e.g. if on 1.7, try 1.5 or 1.6) and see if the problem goes away. This will help the devs narrow down when the problem first arose in the commit log.
-- Try switching up dependency versions. If the software in question has dependencies (other libraries, etc) try upgrading/downgrading those as well.
-
-## License
-
-For open source projects,Under MIT License.
-
-## Project status
-
-## Author
-
-- Project : Student Performance Prediction
-- Author  : Py-Contributors
-- Maintainer : Shubham Pawar
-- Language : Python
-- Github : <https://github.com/Py-Contributors/>
